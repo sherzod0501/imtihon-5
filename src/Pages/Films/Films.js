@@ -1,8 +1,14 @@
 import { NavLink } from "react-router-dom";
 import Badiiyat from "../../assets/image/Badiiyat.svg";
+import brat from "../../assets/image/myacc.png";
 import "./Films.css";
 
 export const Films = () => {
+  const handleOut = () => {
+    localStorage.removeItem("token");
+    window.location.reload();
+  };
+
   return (
     <div className="films">
       <div className="films-main container ">
@@ -55,6 +61,7 @@ export const Films = () => {
         </div>
 
         <div className="dropdown">
+          <img className="brat-img" src={brat} alt="okaxon" />
           <a
             className="btn btn-secondary dropdown-toggle"
             href="#"
@@ -62,9 +69,7 @@ export const Films = () => {
             id="dropdownMenuLink"
             data-bs-toggle="dropdown"
             aria-expanded="false"
-          >
-            Settings
-          </a>
+          ></a>
 
           <ul
             className="dropdown-menu  add-link"
@@ -84,6 +89,11 @@ export const Films = () => {
               <NavLink className="image-user" to="/addsetting">
                 Add Settings
               </NavLink>
+            </li>
+            <li>
+              <button refresh="true" className="image-btn" onClick={handleOut}>
+                LogOut
+              </button>
             </li>
           </ul>
         </div>
