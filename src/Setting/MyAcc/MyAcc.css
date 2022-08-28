@@ -1,0 +1,88 @@
+.My-acc {
+  display: flex;
+  align-items: flex-start;
+  gap: 52px;
+  padding-top: 24px;
+}
+
+.acc-img {
+  border-radius: 50%;
+  width: 316px;
+  height: 260px;
+}
+
+.my-acc-right {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.my-acc-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.acc-two-input {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.acc-head {
+  margin: 0;
+  color: #212121;
+}
+
+.acc-input {
+  padding: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 655px;
+  background-color: #f3f6f9;
+  border-radius: 4px;
+  border: none;
+}
+
+.acc-input-bottom {
+  padding-top: 11px;
+  padding-right: 201px;
+  padding-left: 20px;
+  padding-bottom: 12px;
+  background-color: #f3f6f9;
+  border-radius: 4px;
+  border: none;
+}
+
+.acc-text {
+  color: #464e5f;
+  font-size: 13px;
+}
+
+.acc-span {
+  color: #b5b5c3;
+  font-size: 12px;
+}
+
+.acc-btn {
+  color: #ffffff;
+  padding: 12px 20px;
+  background-color: #152540;
+  border-radius: 4px;
+}
+
+.acc-bottom {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  border-top: 2px solid #ecf0f3;
+  padding-top: 44px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.Myaccount {
+  background-color: #191919;
+}

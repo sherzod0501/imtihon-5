@@ -1,0 +1,17 @@
+.security__container {
+  padding-top: 86px;
+  display: flex;
+  justify-content: center;
+}
+
+.security-bottom {
+  margin-left: 735px;
+}
+
+.security {
+  background-color: #191919;
+}
+
+.acc-head {
+  color: #ffffff;
+}

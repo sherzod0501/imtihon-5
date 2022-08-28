@@ -1,0 +1,44 @@
+.add-setting {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #191919;
+}
+
+.setting-link {
+  color: #464e5f;
+  background-color: #f3f6f9;
+  padding-top: 30px;
+  padding-bottom: 29px;
+  padding-right: 146px;
+  padding-left: 67px;
+  text-decoration: none;
+}
+
+.setting-active {
+  padding-top: 30px;
+  padding-bottom: 29px;
+  padding-right: 146px;
+  padding-left: 67px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #152540;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.span-link {
+  color: #3699ff;
+  margin-right: 9px;
+  border-radius: 4px;
+  background-color: #e5eaee;
+  border-radius: 4px;
+  padding: 6px 15px;
+}
+
+.span-active {
+  padding: 6px 15px;
+  background-color: #152540;
+  color: #ffffff;
+  margin-right: 9px;
+  border-radius: 4px;
+}

@@ -1,0 +1,60 @@
+.films {
+  background-color: #191919;
+  padding-bottom: 30px;
+}
+
+.films-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.films-link {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.9;
+  font-size: 17px;
+}
+
+.active-link {
+  color: #ffffff;
+  text-decoration: none;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 2px solid #ffffff;
+}
+
+.films-left {
+  display: flex;
+  gap: 417px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.films-input {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.books-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 43px;
+}
+
+.image-user {
+  color: #000000;
+  text-decoration: none;
+}
+
+.add-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

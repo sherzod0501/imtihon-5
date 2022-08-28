@@ -1,0 +1,86 @@
+.Movie {
+  background-color: #191919;
+}
+
+.movie-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
+  gap: 30px;
+}
+
+.movie-genres {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.movie-companies {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.single-imgs {
+  width: 582px;
+  height: 579px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.Single-img {
+  width: 582px;
+  height: 579px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.author_texts {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.author-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.author-year {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+  color: #c9ac8c;
+  font-size: 39px;
+}
+
+.author-span {
+  color: #c9ac8c;
+  font-size: 39px;
+}
+
+.movie-title {
+  color: #c9ac8c;
+  font-size: 48px;
+}
+
+.movie-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.single-bottom {
+  margin-top: 53px;
+}
+
+.single-bottom-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.single-head {
+  font-size: 31px;
+  color: #c9ac8c;
+}
+
+.single-text {
+  color: #c9ac8c;
+  font-size: 20px;
+  text-decoration: none;
+}

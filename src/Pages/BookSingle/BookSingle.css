@@ -1,0 +1,40 @@
+.book-year {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-text {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.book-span {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.book-head {
+  color: #c9ac8c;
+  font-size: 16px;
+}
+
+.book-line {
+  width: 500px;
+  height: 0px;
+  border: 1px solid rgba(201, 172, 140, 0.6);
+}
+
+.book-bottom {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.kitob-list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  overflow-x: scroll;
+  width: 670px;
+}
